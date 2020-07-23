@@ -13,6 +13,9 @@ public class Main {
 
         duck = new RubberDuck();
         m.callDuckMethods();
+
+        duck = new DecoyDuck();
+        m.callDuckMethods();
     }
 
     private void callDuckMethods() {
