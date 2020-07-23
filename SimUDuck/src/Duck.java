@@ -1,5 +1,3 @@
-import java.io.Console;
-
 public abstract class Duck {
 
     protected void quack() {
@@ -11,4 +9,8 @@ public abstract class Duck {
     }
 
     protected abstract void display();
+
+    protected void fly() {
+        System.out.println("Duck is flying");
+    }
 }
