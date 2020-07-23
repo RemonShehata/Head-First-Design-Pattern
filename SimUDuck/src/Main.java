@@ -20,9 +20,9 @@ public class Main {
 
     private void callDuckMethods() {
         duck.display();
-        duck.quack();
+        //duck.quack();
         duck.swim();
-        duck.fly();
+        //duck.fly();
         System.out.println("**************");
     }
 }
