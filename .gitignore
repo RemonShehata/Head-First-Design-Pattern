@@ -38,3 +38,4 @@ hs_err_pid*
 # ignore idea files
 **/.DS_Store
 **/.idea
+**/out

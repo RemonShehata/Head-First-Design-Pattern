@@ -1,4 +1,7 @@
-public class RedheadDuck extends Duck implements Flyable, Quackable {
+import fly.FlyBehavior;
+import quack.QuackBehavior;
+
+public class RedheadDuck extends Duck implements FlyBehavior, QuackBehavior {
     @Override
     protected void display() {
         System.out.println("Displaying RedheadDuck...");

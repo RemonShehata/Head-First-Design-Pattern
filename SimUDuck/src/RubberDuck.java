@@ -1,4 +1,6 @@
-public class RubberDuck extends Duck implements Quackable {
+import quack.QuackBehavior;
+
+public class RubberDuck extends Duck implements QuackBehavior {
     @Override
     protected void display() {
         System.out.println("Displaying RubberDuck...");
