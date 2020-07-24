@@ -1,3 +1,5 @@
+import fly.FlyRocketPowered;
+
 public class Main {
 
     private static Duck duck;
@@ -15,6 +17,11 @@ public class Main {
         m.callDuckMethods();
 
         duck = new DecoyDuck();
+        m.callDuckMethods();
+
+        duck = new ModelDuck();
+        m.callDuckMethods();
+        duck.setFlyBehavior(new FlyRocketPowered());
         m.callDuckMethods();
     }
 
