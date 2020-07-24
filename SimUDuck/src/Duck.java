@@ -12,18 +12,18 @@ public abstract class Duck {
 
     protected abstract void display();
 
-    public FlyBehavior getFlyBehavior() {
-        return flyBehavior;
+    protected void performFly() {
+        flyBehavior.fly();
+    }
+
+    protected void performQuack() {
+        quackBehavior.quack();
     }
 
     public void setFlyBehavior(FlyBehavior flyBehavior) {
         this.flyBehavior = flyBehavior;
     }
-
-    public QuackBehavior getQuackBehavior() {
-        return quackBehavior;
-    }
-
+    
     public void setQuackBehavior(QuackBehavior quackBehavior) {
         this.quackBehavior = quackBehavior;
     }
