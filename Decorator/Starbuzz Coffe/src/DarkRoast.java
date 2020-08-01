@@ -1,12 +1,11 @@
 public class DarkRoast extends Beverage {
-    @Override
-    public String getDescription() {
+
+    public DarkRoast() {
         description = "Dark Roast";
-        return super.getDescription();
     }
 
     @Override
-    protected double cost() {
-        return super.cost() + 20;
+    public double cost() {
+        return 0.99;
     }
 }

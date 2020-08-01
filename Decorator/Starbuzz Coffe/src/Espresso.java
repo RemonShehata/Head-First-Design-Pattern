@@ -1,12 +1,10 @@
 public class Espresso extends Beverage {
-    @Override
-    public String getDescription() {
+    public Espresso() {
         description = "Espresso";
-        return super.getDescription();
     }
 
     @Override
-    protected double cost() {
-        return super.cost() + 40;
+    public double cost() {
+        return 1.99;
     }
 }

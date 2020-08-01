@@ -1,13 +1,10 @@
 public class HouseBlend extends Beverage {
-
-    @Override
-    public String getDescription() {
-        description = "HouseBlend";
-        return super.getDescription();
+    public HouseBlend() {
+        description = "House Blend Coffee";
     }
 
     @Override
-    protected double cost() {
-        return super.cost() + 10;
+    public double cost() {
+        return 0.89;
     }
 }
