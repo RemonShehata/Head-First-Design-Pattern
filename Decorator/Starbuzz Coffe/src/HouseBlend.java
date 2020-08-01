@@ -8,6 +8,6 @@ public class HouseBlend extends Beverage {
 
     @Override
     protected double cost() {
-        return 10;
+        return super.cost() + 10;
     }
 }

@@ -7,6 +7,6 @@ public class Decaf extends Beverage {
 
     @Override
     protected double cost() {
-        return 30;
+        return super.cost() + 30;
     }
 }
